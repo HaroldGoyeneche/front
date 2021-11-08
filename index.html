@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Reto 3</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="text/javascript" src="js/misFunciones.js"></script>
+</head>
+
+<body>
+    <h1>Tienda De Disfraces GM </h1>
+
+    <h1>Categorias</h1>
+    <div id="resultadoCat"> </div>
+    <button onclick="traerCategorias()"> Consultar! </button>
+
+    <div>
+        <input type="text" id="Cname" placeholder="name">
+        <input type="text" id="Cdescription" placeholder="description">
+    </div>
+    <button onclick="guardarCategorias()"> Guardar! </button>
+    
+    
+    <h1>Disfraces</h1>
+    <div id="resultadoD"> </div>
+    <button onclick="traerDisfraces()"> Consultar! </button>
+
+    <div>
+        <input type="text" id="Dname" placeholder="name">
+        <input type="text" id="Dbrand" placeholder="brand">
+        <input type="number" id="Dyear" placeholder="year">
+        <input type="text" id="Ddescription" placeholder="description">
+    </div>
+    <button onclick="guardarDisfraces()"> Guardar! </button>
+
+    <h1>Clientes</h1>
+    <div id="resultadoCl"> </div>
+    <button onclick="traerClientes()"> Consultar! </button>
+
+    <div>
+        <input type="email" id="Clemail" placeholder="email">
+        <input type="text" id="Clpassword" placeholder="password">
+        <input type="text" id="Clname" placeholder="name">
+        <input type="number" id="Clage" placeholder="age">
+    </div>
+    <button onclick="guardarClientes()"> Guardar! </button>
+
+    <h1>Mensajes</h1>
+    <div id="resultadoM"> </div>
+    <button onclick="traerMensajes()"> Consultar! </button>
+
+    <div>
+        <input type="text" id="messageText" placeholder="messageText">
+    </div>
+    <button onclick="guardarMensajes()"> Guardar! </button>
+
+    <h1>Reservaciones</h1>
+    <div id="resultadoR"> </div>
+    <button onclick="traerReservaciones()"> Consultar! </button>
+
+    <div>
+        <input type="date" id="startDate" placeholder="startDate">
+        <input type="date" id="devolutionDate" placeholder="devolutionDate">
+    </div>
+    <button onclick="guardarReservaciones()"> Guardar! </button>
+
+
+
+</body>
+
+</html>
